@@ -29,8 +29,9 @@ For the next dialog about Distributable Directory, clear the input and click OK
 
 For the final dialog, accept the default of "generate" for npm run script.
 
-Now, when you edit `index.jade` or `assets/sass/style.sass`, the generation
-npm script will automatically run, and the website will live-reload.
+Now, when you edit `index.jade` or `assets/sass/style.sass`, the generation npm
+script will automatically run, and the website will live-reload inside the
+`documentCSS.app` window.
 
 ## What was necessary
 
