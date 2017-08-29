@@ -1,0 +1,67 @@
+doctype html
+html(lang='en')
+  head
+    title Rico Suave
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    meta(name='description', content='Rico Suave is a pretty decent guy from California.')
+    meta(name='author', content='Rico Suave')
+    link(rel='author', href='https://plus.google.com/+RicoSuave/posts')
+    link(rel='shortcut icon' href='http://www.gravatar.com/avatar/[your-id-hash]?s=16')
+    link(href='assets/css/reset.css' rel='stylesheet')
+    link(href='assets/css/bootstrap.css' rel='stylesheet')
+    link(href='assets/css/style.css' rel='stylesheet')
+    script(src='https://code.jquery.com/jquery-2.1.3.min.js')
+    script(src='assets/js/app.js')
+    script(src='assets/js/bootstrap.min.js')
+    script(src='assets/js/prefixfree.min.js')
+  body
+    div#header
+      div.title
+        h1.cursive Rico Suave
+      div.social
+        a.icn-twitter(href='https://twitter.com/ricosuavetaco' title='Connect on Twitter' data-toggle="tooltip" data-placement="top" target='_blank')
+        a.icn-github(href='https://github.com/ricosuavetaco' title='Connect on GitHub' data-toggle="tooltip" data-placement="top" target='_blank')
+        a.icn-linkedin.last(href='http://www.linkedin.com/in/ricosuavetaco' title='Connect on LinkedIn' data-toggle="tooltip" data-placement="top" target='_blank')
+    div#about
+      h2.cursive Education
+      ul 
+        li.name That University
+        li.details BS in Some Field (10 - 14)
+      ul.last
+        li.name Another University
+        li.details Bachelor of Bussing Tables (14 - 16)
+      h2.cursive Experience
+      ul
+        li.name
+          a(href='#') K-Mart
+        li.details Internship (07 - 08)
+      ul
+        li.name
+          a(href='#') Apple
+        li.details Apprenticeship (10 - 12)
+      ul
+        li.name
+          a(href='#') Google
+        li.details Chief Apple Diplomat Within Google HQ (13 - 14)
+      ul
+        li.name
+          a(href='#') Vegan Veggies
+        li.details Selling Vegetables from My Garden (12 - 15)
+      ul.last
+        li.name
+          a(href='https://github.com/ricosuaveteco') GitHub
+        li.details Open Source Contributions (09 - present)
+      h2.cursive Tools
+      p
+        img(src='assets/img/tools.png' title='Macbook Pro, Google Chrome, Mozilla Firefox, iTerm 2, Vim, Sublime, Adobe Illustrator, Adobe Photoshop, Final Cut Pro', alt='Macbook Pro, Google Chrome, Mozilla Firefox, iTerm 2, Vim, Sublime, Adobe Illustrator, Adobe Photoshop, Final Cut Pro')
+      h2.cursive Knowledge
+      p
+        img(src='assets/img/knowledge.png' title='HTML5, JavaScript, CSS, Yeoman, Grunt, Bower, Less, Sass, Node, npm, Composer, PHP, WordPress, Apache Cordova, Bootstrap, jQuery, MongoDB, MySQL, Mac OS X, FreeNAS, OpenShift, Apache, Nginx, Linux', alt='HTML5, JavaScript, CSS, Yeoman, Grunt, Bower, Less, Sass, Node, npm, Composer, PHP, WordPress, Apache Cordova, Bootstrap, jQuery, MongoDB, MySQL, Mac OS X, FreeNAS, OpenShift, Apache, Nginx, Linux')
+    div#copyright
+      div.copy
+        Copyright &copy; Rico Suave
+      div.download
+        a(href='Rico-Suave-CV.pdf' title='Download') Download PDF
+    script(type='text/javascript').
+      var docObject = {"src":{"path":"index.jade"}};
+

@@ -1,0 +1,160 @@
+@import "compass/css3"
+
+@import url(http://fonts.googleapis.com/css?family=Molle:400italic)
+
+$reveal-color: blue
+$primary-color: #111
+$accent-color: darkblue
+$header-text-color: whitesmoke
+
+.cursive
+  font-style: italic
+  font-family: 'Molle', cursive
+
+=gradient
+  background: linear-gradient(to bottom, rgba(76,76,76,0.5) 0%,rgba(89,89,89,0.5) 12%,rgba(102,102,102,0.5) 25%,rgba(71,71,71,0.5) 39%,rgba(44,44,44,0.5) 50%,rgba(0,0,0,0.5) 51%,rgba(17,17,17,0.5) 60%,rgba(43,43,43,0.5) 76%,rgba(28,28,28,0.5) 91%,rgba(19,19,19,0.5) 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#804c4c4c', endColorstr='#80131313',GradientType=0 )
+
+body
+  font-size: 16px
+  font-weight: 300
+  color: $primary-color
+  background: url(../img/geometry.png)
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+  a
+    color: $accent-color
+    text-decoration: none
+  a:visited
+    color: $accent-color
+  a:hover
+    color: $reveal-color
+  div#header
+    position: relative
+    text-align: center
+    color: $header-text-color
+    background: url(../img/shapes.jpg) $primary-color top center
+    background-size: cover
+    div.title
+      padding: 6em 0 8em 0
+      h1
+        margin: 0 35px
+        font-size: 3em
+        text-shadow: 3px 3px 14px rgba(0, 0, 0, 0.50)
+    div.social
+      +gradient
+      bottom: 0
+      width: 100%
+      padding: 0.4em 0
+      font-size: 2em
+      position: absolute
+      a
+        text-decoration: none
+        color: $header-text-color
+      a:hover
+        color: white
+      a:not(.last)
+        margin-right: 35px
+  div#about
+    h2
+      display: block
+      font-size: 2em
+      padding-top: 2em
+      padding-bottom: 1em
+    p,
+    ul
+      line-height: 1.5em
+      img
+        width: 100%
+    ul
+      li.name
+        display: inline-block
+      li.details
+        border-top: 0.1em solid lightgray
+    ul:not(.last)
+      margin-bottom: 1em
+  div#copyright
+    padding: 4em 0
+    overflow: auto
+    font-size: 0.99em
+    .copy
+      float: left
+    .download
+      float: right
+  div#about,
+  div#copyright
+    margin: auto
+    max-width: 960px
+    padding-left: 35px
+    padding-right: 35px
+
+@media screen and (min-width: 700px)
+  body
+    font-size: 18px
+    div#header div.title
+      padding: 8em 0 10em 0
+    div#about
+      ul
+        li.name
+          float: left
+        li.details
+          border-top: 0
+          text-align: right
+          border-bottom: 0.1em solid lightgray
+
+@media screen and (min-width: 960px)
+  body
+    font-size: 20px
+    div#header div.title
+      padding: 10em 0 12em 0
+    div#about ul
+      text-align: center
+    div.download
+      a
+        display: block
+        line-height: 0
+        text-indent: -9999px
+      a:after
+        display: block
+        text-indent: 0
+        line-height: initial
+        content: 'Download as PDF'
+
+@media print
+  body
+    a,
+    a:visited
+      color: $primary-color !important
+    div.social,
+    div.download
+      display: none
+    div#header
+      div.title
+        padding-bottom: 0
+      h1
+        color: $primary-color
+    div#about h2
+      padding-top: 2em
+
+@font-face
+  font-family: 'icomoon'
+  src: url('../fonts/icomoon.eot?8987e2')
+  src: url('../fonts/icomoon.eot?#iefix8987e2') format("embedded-opentype"), url('../fonts/icomoon.woff?8987e2') format("woff"), url('../fonts/icomoon.ttf?8987e2') format("truetype"), url('../fonts/icomoon.svg?8987e2#icomoon') format("svg")
+  font-style: normal
+  font-weight: normal
+[class^="icn-"], [class*=" icn-"]
+  font-family: 'icomoon'
+  speak: none
+  line-height: 1
+  font-style: normal
+  font-weight: normal
+  font-variant: normal
+  text-transform: none
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+.icn-linkedin:before
+  content: "\e600"
+.icn-twitter:before
+  content: "\e601"
+.icn-github:before
+  content: "\e602"
+
