@@ -13,15 +13,15 @@ This example is setup to be compatible with `documentCSS.app`:
 
 https://github.com/fidojs/documentcss-app/wiki/How-to-Download
 
-Download `documentCSS.app` and clone this repository `ricosuavetaco`.
+Download `documentCSS.app` and clone this repository.
 
-Start `documentCSS.app` and point the directory dialog to `ricosuavetaco`:
+Start `documentCSS.app` and direct the directory dialog to the clone:
 
 ```
-~/Desktop/ricosuavetaco
+~/Desktop/documentcss-app-resume-website-example
 ```
 
-Or wherever you cloned `ricosuavetaco` to.
+Or wherever you cloned `documentcss-app-resume-website-example` to.
 
 For the next dialog about Distributable Directory, clear the input and click OK
 (this is because files get built next to their sources, so therefore
