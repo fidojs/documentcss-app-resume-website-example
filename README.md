@@ -29,6 +29,9 @@ For the next dialog about Distributable Directory, clear the input and click OK
 
 For the final dialog, accept the default of "generate" for npm run script.
 
+Now, when you edit `index.jade` or `assets/sass/style.sass`, the generation
+npm script will automatically run, and the website will live-reload.
+
 ## What was necessary
 
 What was necessary to make this Grunt app functional with `documentCSS.app`?
@@ -45,4 +48,4 @@ combinations in `server.js` but only one is mapped by default. Need a settings
 interface that allows multiple glob patterns and command combinations running
 simultaneously. This would be useful in the case of this repo because we could
 split the Jade and SASS tasks up, so that only Jade runs when `.html` changes,
-and only SASS runs when `.scss` changes.
+and only SASS runs when `.sass` changes.
