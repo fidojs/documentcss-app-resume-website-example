@@ -1,4 +1,4 @@
-# ricosuavetaco
+# Resume Website Example for `documentCSS.app`
 
 This is an example resume website that uses the grunt task runner to run tasks:
 
