@@ -1,9 +1,15 @@
 # Resume Website Example for `documentCSS.app`
 
+Prerequisites:
+
+  - `gem update --system && gem install compass`
+  - `npm install -g grunt-cli`
+  - `npm install`
+
 Grunt tasks:
 
-- Compile SASS.
-- Compile Jade.
+  - Compile SASS.
+  - Compile Jade.
 
 The tasks result in a generated static site.
 
