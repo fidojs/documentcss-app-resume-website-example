@@ -14,11 +14,7 @@ Prerequisites:
 
 In this image, the resume website example is being viewed on the left in `documentCSS.app`.
 
-### How to Download `documentCSS.app`
-
-https://github.com/fidojs/documentcss-app/wiki/How-to-Download
-
-Download `documentCSS.app` and clone this repository.
+Download `documentCSS.app`: https://github.com/fidojs/documentcss-app/wiki/How-to-Download
 
 ## Using `documentCSS.app` with resume website example
 
