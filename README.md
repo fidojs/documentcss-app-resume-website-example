@@ -43,8 +43,8 @@ script will automatically run, and the website will live-reload inside the
 
 What was necessary to make this Grunt app functional with `documentCSS.app`?
 
-- Added a `glob.pattern` config to the `package.json`.
 - Added `"generate": "grunt jade compass"` to npm scripts.
+- Added a `bit-docs.glob.pattern` config to the [`package.json`](https://github.com/fidojs/documentcss-app-resume-website-example/blob/f3703ef97535b2aa692bb24bf4abb8d4a32fd48d/package.json#L34-L41).
 - Added a `<script/>` tag with a `docObject` that sets `path` at the end of
   `<body/>` in `index.jade`.
 
