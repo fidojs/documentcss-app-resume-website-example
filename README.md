@@ -36,7 +36,9 @@ Now, whenever you edit these files:
 - `assets/sass/style.sass`
 
 The "generate" npm script will automatically run, and the resume website 
-example will live-reload inside the `documentCSS.app` window!
+example will live-reload.
+
+All inside the `documentCSS.app` window!
 
 ## The Magic Behind It All
 
