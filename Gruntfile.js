@@ -18,6 +18,8 @@ module.exports = function( grunt ) {
   // Initialize configuration
   //
 
+  // NOTE: Grunt reload stuff is not used (or needed) with documentCSS.app
+  
   var reloadPort = 35729;
   var pkg = grunt.file.readJSON('package.json');
 
