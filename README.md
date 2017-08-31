@@ -6,7 +6,7 @@ Prerequisites:
 
   - `gem update --system && gem install compass`
   - `npm install -g grunt-cli`
-  - `npm install`
+  - `git clone && npm install`
 
 ## Quick Start
 
