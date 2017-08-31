@@ -12,7 +12,7 @@ Prerequisites:
 
 <img src="https://user-images.githubusercontent.com/990216/29806218-c0bbff42-8c53-11e7-851c-31060c5a4140.png" width="75%" />
 
-In this image, the resume website example is being viewed on the left in `documentCSS.app`.
+In this image, **the resume website example** is being viewed on the left in `documentCSS.app`.
 
 Download `documentCSS.app`: https://github.com/fidojs/documentcss-app/wiki/How-to-Download
 
