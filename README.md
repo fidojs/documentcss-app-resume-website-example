@@ -16,7 +16,7 @@ In this image, **the resume website example** is being viewed on the left in `do
 
 Download `documentCSS.app`: https://github.com/fidojs/documentcss-app/wiki/How-to-Download
 
-## Using `documentCSS.app` with resume website example
+### Using `documentCSS.app` with resume website example
 
 Start `documentCSS.app`. Directory is wherever you cloned:
 
@@ -29,6 +29,8 @@ click OK, because files are built next to their sources by the grunt task.
 This means `index.html` will be next to `index.jade` in the root directory.
 
 For the final dialog, accept the default of "generate" for npm run script.
+
+### Start Editing
 
 Now, whenever you edit these files:
 
