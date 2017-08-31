@@ -1,45 +1,48 @@
 # Resume Website Example for `documentCSS.app`
 
+This simple resume website example uses Grunt to build and is comptible with `documentCSS.app`.
+
 Prerequisites:
 
   - `gem update --system && gem install compass`
   - `npm install -g grunt-cli`
   - `npm install`
 
-Grunt tasks:
-
-  - Compile SASS.
-  - Compile Jade.
-
-The tasks result in a generated static site.
+## Quick Start
 
 <img src="https://user-images.githubusercontent.com/990216/29806218-c0bbff42-8c53-11e7-851c-31060c5a4140.png" width="75%" />
 
-This example is setup to be compatible with `documentCSS.app`:
+In this image, the resume website example is being viewed in `documentCSS.app` on the left.
+
+### How to Download `documentCSS.app`
 
 https://github.com/fidojs/documentcss-app/wiki/How-to-Download
 
 Download `documentCSS.app` and clone this repository.
 
-Start `documentCSS.app` and direct the directory dialog to the clone:
+## Using `documentCSS.app` with resume website example
+
+Start `documentCSS.app`. Directory is wherever you cloned:
 
 ```
 ~/Desktop/documentcss-app-resume-website-example
 ```
 
-Or wherever you cloned `documentcss-app-resume-website-example` to.
-
-For the next dialog about Distributable Directory, clear the input and click OK
-(this is because files get built next to their sources, so therefore
-`index.html` will be next to `index.jade`, in the root directory).
+For the dialog about "Distributable Directory", clear the input field and
+click OK, because files are built next to their sources by the grunt task.
+This means `index.html` will be next to `index.jade` in the root directory.
 
 For the final dialog, accept the default of "generate" for npm run script.
 
-Now, when you edit `index.jade` or `assets/sass/style.sass`, the generation npm
-script will automatically run, and the website will live-reload inside the
-`documentCSS.app` window.
+Now, whenever you edit these files:
 
-## What was necessary
+- `index.jade`
+- `assets/sass/style.sass`
+
+The "generate" npm script will automatically run, and the resume website 
+example will live-reload inside the `documentCSS.app` window!
+
+## The Magic Behind It All
 
 What was necessary to make this Grunt app functional with `documentCSS.app`?
 
@@ -48,7 +51,7 @@ What was necessary to make this Grunt app functional with `documentCSS.app`?
 - Added a `<script/>` tag with a `docObject` that sets `path` at the end of
   `<body/>` in `index.jade`.
 
-## Improvements
+## Possible Improvements
 
 `documentCSS.app` has the ability to assign multiple "glob pattern"-to-command
 combinations in `server.js` but only one is mapped by default. Need a settings
